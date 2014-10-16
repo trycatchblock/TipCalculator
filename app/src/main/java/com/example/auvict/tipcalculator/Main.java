@@ -68,7 +68,7 @@ public class Main extends Activity {
         double fifteenPercentTotal = billAmount + fifteenPercentTip;
 
         tip15TextView.setText(currencyFormat.format(fifteenPercentTip));
-        totalCustomTextView.setText(currencyFormat.format(fifteenPercentTotal));
+        total15TextView.setText(currencyFormat.format(fifteenPercentTotal));
     }
 
     private void updateCustom()
@@ -76,7 +76,7 @@ public class Main extends Activity {
         percentCustomTextView.setText(percentFormat.format(customPercent));
 
         double customTip = billAmount * customPercent;
-        double customTotal = billAmount * customTip;
+        double customTotal = billAmount + customTip;
 
         tipCustomTextView.setText(currencyFormat.format(customTip));
         totalCustomTextView.setText(currencyFormat.format(customTotal));
