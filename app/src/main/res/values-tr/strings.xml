@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Başişli Hesap Makinesi</string>
+    <string name="app_name">Bahşişli Hesap Makinesi</string>
     <string name="action_settings">Ayarlar</string>
     <string name="amount">Hesap</string>
     <string name="custom_percentage">Özel %</string>
     <string name="fifteenPercent">15%</string>
     <string name="eighteenPercent">18%</string>
-    <string name="tip">Başiş</string>
+    <string name="tip">Bahşiş</string>
     <string name="total">Toplam</string>
 
 </resources>
